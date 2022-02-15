@@ -1,16 +1,16 @@
-package thepoultryman.modid.mixin;
+package thepoultryman.food_is_healthy.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import thepoultryman.modid.ModClass;
+import thepoultryman.food_is_healthy.FoodIsHealthy;
 
 @Mixin(TitleScreen.class)
-public class ModMixin {
+public class FoodIsHealthyMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ModClass.LOGGER.info("This line is printed by an example mod mixin!");
+		FoodIsHealthy.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

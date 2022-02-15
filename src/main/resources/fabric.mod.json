@@ -1,28 +1,28 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
+    "id": "food_is_healthy",
     "version": "0.1.0",
 
-    "name": "Mod Name",
-    "description": "This mod is a template for other mods.",
+    "name": "Food is Healthy",
+    "description": "Changes Minecraft's food system to be more interesting.",
     "authors": [
         "ThePoultryMan"
     ],
     "contact": {
-        "sources": "https://github.com/ThePoultryMan/Mod-Template"
+        "sources": "https://github.com/ThePoultryMan/Food-Is-Healthy"
     },
 
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
+    "license": "MIT",
+    "icon": "assets/food_is_healthy/icon.png",
 
     "environment": "*",
     "entrypoints": {
         "main": [
-            "thepoultryman.modid.ModClass"
+            "thepoultryman.food_is_healthy.FoodIsHealthy"
         ]
     },
     "mixins": [
-        "modid.mixins.json"
+        "food_is_healthy.mixins.json"
     ],
 
     "depends": {
