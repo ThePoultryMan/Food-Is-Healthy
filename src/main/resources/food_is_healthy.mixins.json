@@ -1,14 +1,12 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "thepoultryman.food_is_healthy.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
-  "client": [
-    "FoodIsHealthyMixin"
-  ],
-  "injectors": {
-    "defaultRequire": 1
+    "required": true,
+    "minVersion": "0.8",
+    "package": "thepoultryman.food_is_healthy.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "GoodBuffs"
+    ],
+    "injectors": {
+        "defaultRequire": 1
   }
 }
